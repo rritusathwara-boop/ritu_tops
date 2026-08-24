@@ -27,31 +27,31 @@ if(isset($_POST['save']))
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Creator Profile Hub</title>
-</head>
-<body>
+	<head>
+		<title>Creator Profile Hub</title>
+	</head>
+	<body>
 
-<h2>Create / Edit Profile</h2>
+	<h2>Create / Edit Profile</h2>
 
-<form method="post">
+	<form method="post">
 
-    Name:
-    <input type="text" name="name"><br><br>
+		Name:
+		<input type="text" name="name"><br><br>
 
-    Bio:
-    <textarea name="bio"></textarea><br><br>
+		Bio:
+		<textarea name="bio"></textarea><br><br>
 
-    Category:
-    <input type="text" name="category"><br><br>
+		Category:
+		<input type="text" name="category"><br><br>
 
-    <input type="submit" name="save" value="Save Profile">
+		<input type="submit" name="save" value="Save Profile">
 
-</form>
+	</form>
 
-<p><?php echo $message; ?></p>
+	<p><?php echo $message; ?></p>
 
-<a href="dashboard.php">View Dashboard</a>
+	<a href="dashboard.php">View Dashboard</a>
 
-</body>
+	</body>
 </html>
