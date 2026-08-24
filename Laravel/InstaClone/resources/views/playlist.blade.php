@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Playlist</title>
+    <title>All Playlist</title>
 </head>
 <body>
+	{{--
+    @include('partials.navbar')
+	
+	    <h1>All Playlists</h1>
+		--}}
 
-    <h1>Playlist</h1>
+	{{-- session-9 Task-3 --}}
+     <h1>Updated Playlist</h1>
 
-    <form action="/playlist/add" method="POST">
-        @csrf
-        <button type="submit">Add Song</button>
-    </form>
-
+    <h2>{{ $playlist->title }}</h2>
+    <p>{{ $playlist->description }}</p>
+	 
 </body>
 </html>
