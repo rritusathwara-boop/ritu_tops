@@ -1,0 +1,4 @@
+AI-generated code can contain errors, so it should always be tested before using it in a real project.
+Testing helps identify syntax errors, missing files, incorrect routes, and database problems.
+For example, in my Laravel project, AI-generated code caused a **“WishlistController does not exist”** error that had to be fixed.
+Therefore, testing AI-generated code ensures the application works correctly and safely before deployment.

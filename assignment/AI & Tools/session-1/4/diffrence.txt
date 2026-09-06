@@ -1,0 +1,5 @@
+Two Differences Between My Code and ChatGPT's Code:
+
+1. Clarity: My code uses a `foreach` loop, which is easier for beginners to read and understand step by step. ChatGPT's code uses `array_filter()`, which is shorter but slightly more advanced.
+
+2. Approach: My code manually checks each product and adds matching products to the result array. ChatGPT's code uses PHP's built-in `array_filter()` function to filter matching products automatically.

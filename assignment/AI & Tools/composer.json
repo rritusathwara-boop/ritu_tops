@@ -1,0 +1,10 @@
+{
+    "require": {
+        "openai-php/client": "0.10.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
