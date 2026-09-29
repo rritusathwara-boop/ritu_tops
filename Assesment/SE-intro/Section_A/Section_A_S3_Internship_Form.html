@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment M3-A1: Section A - S3 Internship Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 15px;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 25px 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 18px;
+        }
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: #444;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="file"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+        input:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .btn-submit {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-submit:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Internship Application Form</h2>
+
+        <!-- Form enforcing HTML5 built-in validation without JavaScript -->
+        <form action="#" method="POST" enctype="multipart/form-data">
+            
+            <!-- 1. Applicant Name -->
+            <div class="form-group">
+                <label for="name">Applicant Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+
+            <!-- 2. Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+            </div>
+
+            <!-- 3. Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="10-digit mobile number">
+            </div>
+
+            <!-- 4. Preferred Domain -->
+            <div class="form-group">
+                <label for="domain">Preferred Domain *</label>
+                <select id="domain" name="domain" required>
+                    <option value="" disabled selected>-- Select Domain --</option>
+                    <option value="Web">Web</option>
+                    <option value="Data">Data</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="AI">AI</option>
+                </select>
+            </div>
+
+            <!-- 5. Resume File Upload -->
+            <div class="form-group">
+                <label for="resume">Resume Upload *</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit Application</button>
+        </form>
+    </div>
+
+</body>
+</html>
