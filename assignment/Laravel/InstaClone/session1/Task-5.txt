@@ -1,0 +1,11 @@
+MVC Pattern in Laravel – Example of Zomato
+
+MVC stands for Model, View, and Controller. Laravel uses the MVC pattern to separate the application's data, user interface, and application logic, making the project easier to develop and maintain.
+
+For example, consider a food-delivery app like Zomato.
+
+Model: The Model handles the application's data and database operations. In Zomato, models could represent restaurants, food items, customers, and orders. For example, a Restaurant model could retrieve restaurant information from the database.
+View: The View is the part that the user sees in the browser. In Zomato, it could display the restaurant list, food menu, prices, ratings, and order details. Laravel commonly uses Blade templates for views.
+Controller: The Controller connects the Model and View. For example, when a user searches for restaurants, the RestaurantController receives the request, asks the Restaurant model for the required restaurant data, and then sends that data to the View to display it.
+
+In simple words: The Model manages the data, the View displays the data, and the Controller handles the user's request and connects the Model with the View. This separation makes Laravel applications organized and easier to maintain.

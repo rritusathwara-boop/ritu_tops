@@ -1,7 +1,3 @@
--- Software Engineering – M5 Database Management M5-A1
--- Section C: Mini Capstone
--- Food Ordering Database
--- MySQL / phpMyAdmin
 
 CREATE DATABASE IF NOT EXISTS foodapp_db;
 USE foodapp_db;
