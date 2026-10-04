@@ -1,0 +1,19 @@
+Entry-controlled loop example:
+
+int i = 10;
+while (i < 5) {
+    printf("%d", i);
+    i++;
+}
+
+The condition is checked before the body. Because 10 < 5 is false, the body executes zero times.
+
+Exit-controlled loop example:
+
+int i = 10;
+do {
+    printf("%d", i);
+    i++;
+} while (i < 5);
+
+The body executes once before the condition is checked. Therefore, even though the condition is false at the start, the do-while loop runs once.

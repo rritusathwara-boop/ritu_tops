@@ -1,0 +1,18 @@
+Algorithm: Ordering Food on Swiggy
+
+1. Start.
+2. Open the Swiggy app.
+3. Enter or select the delivery location.
+4. Search for a restaurant or food item.
+5. Select a restaurant.
+6. Choose the required food items.
+7. Add the items to the cart.
+8. Review the cart and order amount.
+9. Enter or confirm the delivery address.
+10. Select a payment method.
+11. Make the payment.
+12. Check whether payment is successful.
+13. If payment fails, choose another payment method and try again.
+14. If payment succeeds, place the order.
+15. Receive the order confirmation.
+16. End.

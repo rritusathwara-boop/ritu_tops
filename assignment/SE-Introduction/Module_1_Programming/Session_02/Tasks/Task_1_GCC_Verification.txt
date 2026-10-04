@@ -1,0 +1,10 @@
+Task 1 - GCC Installation Verification
+
+Command:
+gcc --version
+
+Expected result:
+The terminal should display the installed GCC version, such as:
+gcc (MinGW-W64 ...) ...
+
+If 'gcc' is not recognized on Windows, install MinGW/MSYS2 GCC and add its bin folder to PATH.

@@ -1,0 +1,14 @@
+Invalid/valid variable names:
+
+1stPlayer   -> Invalid: cannot start with a digit.
+player_age  -> Valid.
+$score      -> Invalid in standard C: '$' is not a standard identifier character.
+total-marks -> Invalid: '-' is treated as the subtraction operator.
+userName    -> Valid.
+
+Correct examples:
+firstPlayer
+player_age
+score
+total_marks
+userName

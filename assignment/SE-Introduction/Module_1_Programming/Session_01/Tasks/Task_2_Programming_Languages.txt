@@ -1,0 +1,6 @@
+Three popular programming languages:
+1. Java - Usually compiled to bytecode and then executed by the JVM. It can also use JIT compilation at runtime.
+2. Python - Usually interpreted through the Python interpreter/virtual machine, although implementations may use compilation internally.
+3. JavaScript - Traditionally interpreted/executed by a JavaScript engine, but modern engines also use JIT compilation.
+
+Note: The compiled/interpreted distinction can vary by implementation.

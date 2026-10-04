@@ -1,0 +1,9 @@
+Mini Project 1 - Music Listening Logger
+
+Task 1: Store daily music listening minutes for 7 days in an array.
+Task 2: Provide a menu to log data, view summary, or exit.
+Task 3: Save daily data to music_log.txt.
+Task 4: Read saved data and calculate total, average, and highest minutes.
+Task 5: Provide a reset option that asks for confirmation, clears the array, and clears music_log.txt.
+
+The supplied MusicListeningLogger.c combines all five tasks into one complete console application.

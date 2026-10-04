@@ -1,0 +1,14 @@
+Task 4 - Compile and Run
+
+1. Open Command Prompt/Terminal in the folder containing hello.c.
+2. Compile:
+   gcc hello.c -o hello
+3. On Windows, run:
+   hello.exe
+   or
+   .\hello.exe
+4. On Linux/Mac, run:
+   ./hello
+
+Expected output:
+Hello, Instagram World!
